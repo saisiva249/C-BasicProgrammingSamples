@@ -5,7 +5,7 @@ namespace SamplePrograms
     class Program
     {
         /// <summary>
-        /// Find the sum of digits in a given number
+        /// Find the reverse of a given number
         /// if entered value is not a valid number then display message
         /// </summary>
         /// <param name="args"></param>
