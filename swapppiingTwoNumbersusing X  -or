@@ -1,0 +1,31 @@
+using System;
+using static System.Console;
+
+namespace SamplePrograms
+{
+    class Program
+    {
+        /// <summary>
+        /// Swap two numbers using X-OR
+        /// </summary>
+        /// <param name="args"></param>
+        static void Main(string[] args)
+        {
+            WriteLine("Enter the numbers to swap");
+            int a = Convert.ToInt32(ReadLine());
+            int b = Convert.ToInt32(ReadLine());
+
+            WriteLine($"Numbers before search are {a}, and {b}");
+
+            a = a ^ b;
+            b = a ^ b;
+            a = a ^ b;
+
+            WriteLine($"Numbers after search are {a}, and {b}");
+
+        }
+    }
+}
+
+
+
